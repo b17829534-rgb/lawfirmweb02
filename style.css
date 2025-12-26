@@ -268,7 +268,7 @@ html, body {
 
 .hero-bg img {
   width: 100%;
-  height: 800px;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -296,7 +296,7 @@ html, body {
   width: 100%;
   height: 715px;
   object-fit: cover;
-  animation: heroZoom 8s ease-in-out infinite;
+  animation: heroZoom 14s ease-in-out infinite;
 }
 
 @keyframes heroZoom {
@@ -660,7 +660,7 @@ p {
 /* practice section */
 /* Section */
 .practice {
-  padding: 120px 20px;
+  padding: 120px 20px 120px;
 }
 
 .practice-sec {
@@ -816,7 +816,7 @@ p {
 @media (max-width: 768px) {
 
   .practice {
-    padding: 70px 16px;
+     padding: 120px 16px 70px;
   }
 
   .header {
