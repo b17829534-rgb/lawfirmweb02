@@ -41,6 +41,9 @@ const mobileMenu = document.getElementById("mobileMenu");
 window.addEventListener("scroll", () => {
   header.classList.toggle("scrolled", window.scrollY > 20);
 });
+  function toggleMenu() {
+    document.querySelector('.desktop-nav').classList.toggle('active');
+  }
 
 // Toggle mobile menu
 menuToggle.addEventListener("click", () => {
